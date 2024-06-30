@@ -19,7 +19,7 @@ An interactive voice response (IVR) menu behind the public number allows callers
 Office, or "2" for the Proj.
 
 An answering service is provided for incoming calls to the public number. This allows external callers 
-to leave a voicemail if the Office is empty. Voicemail recoridngs are e-mailed to the committee using 
+to leave a voicemail if the Office is empty. Voicemail recordings are e-mailed to the committee using 
 the _committee@bts-crew.com_ e-mail.
 
 Introduction to VoIP telephone systems in general:

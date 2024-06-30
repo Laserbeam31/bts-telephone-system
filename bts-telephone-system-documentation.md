@@ -148,6 +148,7 @@ Postfix instead connects to a special _pbx@bts-crew.com_ e-mail account on the B
 is then used to distribute voicemail-related e-mails. This account is solely for the use of the PBX server.
 For the credentials used to access this account for administrative purposes, please contact Committee.
 
-Since Postfix's connection out to the _pbx@bts-crew.com_ account is automated, this appears to Google as
+Since Postfix's connection out to the pbx@bts-crew.com account is automated, this appears to Google as
 a "Less secure app access". Therefore, an _App Password_ is in place on this account for use by the Postfix
-connection. This app password is separate to the main password used by a human being to log into the account.
+connection. This app password is separate to the main password used by a human being to log into the account,
+and is used _only_ by Postfix on the PBX server to make the outgoing Google connection.

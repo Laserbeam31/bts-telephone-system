@@ -20,7 +20,7 @@ Office, or "2" for the Proj.
 
 An answering service is provided for incoming calls to the public number. This allows external callers 
 to leave a voicemail if the Office is empty. Voicemail recordings are e-mailed to the committee using 
-the _committee@bts-crew.com_ e-mail.
+the _<committee@bts-crew.com>_ e-mail.
 
 Introduction to VoIP telephone systems in general:
 --------------------------------------------------
@@ -144,11 +144,11 @@ Whilst in principle, Postfix could send e-mails directly out over port 25 to the
 method generally results in e-mails being automatically marked as spam by the recipients' mail providers, 
 owing to their not emanating from a reputable e-mail service/address.
 
-Postfix instead connects to a special _pbx@bts-crew.com_ e-mail account on the BTS GSuite. This account
+Postfix instead connects to a special _<pbx@bts-crew.com>_ e-mail account on the BTS GSuite. This account
 is then used to distribute voicemail-related e-mails. This account is solely for the use of the PBX server.
 For the credentials used to access this account for administrative purposes, please contact Committee.
 
-Since Postfix's connection out to the pbx@bts-crew.com account is automated, this appears to Google as
+Since Postfix's connection out to the <pbx@bts-crew.com> account is automated, this appears to Google as
 a "Less secure app access". Therefore, an _App Password_ is in place on this account for use by the Postfix
 connection. This app password is separate to the main password used by a human being to log into the account,
 and is used _only_ by Postfix on the PBX server to make the outgoing Google connection.
